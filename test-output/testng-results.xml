@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<br>Verify user can see gmail login screen.<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>1Enter email.<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>2Click on Next button.<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>3Enter password.<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>4Click on Next button.<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Verify user can see gmail login screen.<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>5Enter email.<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>6Click on Next button.<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>7Enter password.<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>8Click on Next button.<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="KIWIQA POC Suite" duration-ms="36812" started-at="2020-10-12T10:11:41 IST" finished-at="2020-10-12T10:12:18 IST">
+    <groups>
+    </groups>
+    <test name="Verify user can see gmail login screen in chrome." duration-ms="16211" started-at="2020-10-12T10:11:41 IST" finished-at="2020-10-12T10:11:57 IST">
+      <class name="com.demo.DemoIndex">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.demo.DemoIndex@7692d9cc]" name="beforeTest" is-config="true" duration-ms="10396" started-at="2020-10-12T10:11:41 IST" finished-at="2020-10-12T10:11:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="demoTest()[pri:0, instance:com.demo.DemoIndex@7692d9cc]" name="demoTest" duration-ms="4958" started-at="2020-10-12T10:11:52 IST" finished-at="2020-10-12T10:11:57 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Verify user can see gmail login screen.<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>1Enter email.<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>2Click on Next button.<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>3Enter password.<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>4Click on Next button.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demoTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.DemoIndex@7692d9cc]" name="tearDown" is-config="true" duration-ms="807" started-at="2020-10-12T10:11:57 IST" finished-at="2020-10-12T10:11:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=demoTest status=SUCCESS method=DemoIndex.demoTest()[pri:0, instance:com.demo.DemoIndex@7692d9cc] output=<br>Verify user can see gmail login screen.<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.DemoIndex -->
+    </test> <!-- Verify user can see gmail login screen in chrome. -->
+    <test name="Verify user can see gmail login screen in firefox." duration-ms="20513" started-at="2020-10-12T10:11:58 IST" finished-at="2020-10-12T10:12:18 IST">
+      <class name="com.demo.DemoIndex">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.demo.DemoIndex@147ed70f]" name="beforeTest" is-config="true" duration-ms="9138" started-at="2020-10-12T10:11:58 IST" finished-at="2020-10-12T10:12:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="demoTest()[pri:0, instance:com.demo.DemoIndex@147ed70f]" name="demoTest" duration-ms="10058" started-at="2020-10-12T10:12:07 IST" finished-at="2020-10-12T10:12:17 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Verify user can see gmail login screen.<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>5Enter email.<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>6Click on Next button.<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>7Enter password.<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>8Click on Next button.<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demoTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demo.DemoIndex@147ed70f]" name="tearDown" is-config="true" duration-ms="1305" started-at="2020-10-12T10:12:17 IST" finished-at="2020-10-12T10:12:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=demoTest status=SUCCESS method=DemoIndex.demoTest()[pri:0, instance:com.demo.DemoIndex@147ed70f] output=<br>Verify user can see gmail login screen.<br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.DemoIndex -->
+    </test> <!-- Verify user can see gmail login screen in firefox. -->
+  </suite> <!-- KIWIQA POC Suite -->
+</testng-results>

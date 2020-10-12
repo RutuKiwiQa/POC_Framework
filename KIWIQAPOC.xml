@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="KIWIQA POC Suite" verbose="10" parallel="true" thread-count="2">
+
+    <test name="Verify user can see gmail login screen in chrome." parallel="methods">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.demo.DemoIndex">
+                <methods>
+                    <include name="demoTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Verify user can see gmail login screen in firefox." parallel="methods">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.demo.DemoIndex">
+                <methods>
+                    <include name="demoTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
